@@ -1,0 +1,21 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+websockets==14.1
+redis==5.2.1
+hiredis==3.1.0
+pandas==2.2.3
+numpy==2.2.1
+scipy==1.15.0
+py_vollib==1.0.1
+scikit-learn==1.6.0
+xgboost==2.1.3
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+aiohttp==3.11.11
+orjson==3.10.12
+httpx==0.28.1
+uvloop==0.21.0; sys_platform != "win32"
+# Optional (requires C lib): TA-Lib==0.5.1
+# joblib used by sklearn model persistence
+joblib==1.4.2
